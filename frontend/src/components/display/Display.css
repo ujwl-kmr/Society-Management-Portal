@@ -1,0 +1,117 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+        /* border: 2px solid; */
+        /* max-height: 100vh; */
+        /* background-color: blue; */
+    }
+    
+    .complaintDisplay{
+        /* border: 2px solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+     
+    }
+    .complaintDisplay>h1{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    table{
+        width: 70%;
+        margin-bottom: 70px;
+        
+    }
+    table,th,td{
+        border-collapse: collapse;
+        border: 1px solid rgb(30, 27, 27);
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    th,td{
+    
+        padding: 25px;
+    }   
+    .complaintDisplay{
+        /* border: 2px solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+       
+     
+    }
+    .complaintDisplay>h1{
+        /* text-align: center; */
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    table{
+        width: 70%;
+        margin-bottom: 70px;
+        
+    }
+    table,th,td{
+        border-collapse: collapse;
+        border: 1px solid rgb(30, 27, 27);
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    th,td{
+    
+        padding: 25px;
+    }
+
+button{
+        width: 104px;
+    font-size: 19px;
+    border: none;
+    background: white;
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        background-color: #433d3d; 
+        color: aliceblue;   
+        padding-bottom: 20px;
+    }
+    footer>.footer-body{
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: center;
+    }
+    .footer-body>p{
+        /* border: 2px solid; */
+        font-size: 1.4rem;
+        width: 54%;
+        text-align: center  ;
+        line-height: 40px;
+    }
+    
+    .contact-list>ul{
+        /* border: 2px solid; */
+        display: flex;
+        column-gap: 40px;
+        font-size:1.2rem ;
+        font-weight: 900;
+    }
+    footer>.span{
+        font-size: 1.3rem;
+        /* border: 2px solid; */
+        width: 50%;
+        text-align: center;
+    }

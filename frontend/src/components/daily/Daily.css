@@ -1,0 +1,87 @@
+.mainContainer{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 38px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25vw;
+    
+}
+.mainContainer>.main>h1{
+    color: rgb(215, 69, 16);
+}
+
+.resident>label{
+    margin-right:15px;  
+   } 
+
+.main>.resident>input{
+     border: none;
+     border-bottom: 1px solid #dadada;
+     cursor: text;
+     }
+
+     .main>.resident>input:focus{
+       outline:none;
+   }
+
+   .flatNO>label{
+    margin-right:15px;  
+   } 
+
+.main>.flatNO>input{
+     border: none;
+     border-bottom: 1px solid #dadada;
+     cursor: text;
+     margin-left: 7px;
+     }
+
+     .main>.flatNO>input:focus{
+       outline:none;
+   }
+
+   .need>label{
+    margin-right:15px;  
+   } 
+
+.main>.need>input{
+     border: none;
+     border-bottom: 1px solid #dadada;
+     cursor: text;
+     margin-left: 10px;
+     }
+
+     .main>.need>input:focus{
+       outline:none;
+   }
+
+.main>button{
+    width: 82%;
+    padding-inline: 23.5%;
+    padding-block: 10px;
+    /* width: 98%; */
+    background: hsla(358, 85%, 68%, 1);
+
+    background: linear-gradient(90deg, hsla(358, 85%, 68%, 1) 50%, hsla(18, 88%, 66%, 1) 60%, hsla(41, 98%, 49%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(358, 85%, 68%, 1) 50%, hsla(18, 88%, 66%, 1) 60%, hsla(41, 98%, 49%, 1) 100%);
+    ;
+    border-radius: 13px;
+    transform: translateX(6px);
+    cursor: pointer;
+    border: none;
+    /* border: 2px solid rgb(184, 184, 184); */
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+}

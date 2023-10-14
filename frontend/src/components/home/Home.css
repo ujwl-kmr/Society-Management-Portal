@@ -1,0 +1,277 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* font-family: "Google Sans Text", Arial, Helvetica, sans-serif; */
+
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+/* section 2 start */
+.content{
+  margin-top: 80px;
+  
+  /* border: 2px solid; */
+  /* position: relative; */
+  /* top: 100px;
+  bottom: 200px; */
+ 
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+ width: 90vw;
+ transform: translateX(40px);
+ /* transform: translatey(100px); */
+ border-radius: 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+  /* margin-top: 100px; */
+ 
+}
+/* section2 left part start */
+.content>.text{
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  padding: 20px;
+  padding: 20px;
+  /* border-radius: 20px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ 
+}
+.content>.text>h1{
+  display: flex;
+  flex-direction: column;
+  /* text-align: justify; */
+  align-items: center;
+  row-gap: 10px;
+  transform: translateY(88px);
+
+  /* border: 2px solid green; */
+  /* color: coral; */
+/* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+
+}
+
+.iso{
+  /* border: 2px solid; */
+  display: flex;
+  column-gap: 29px;
+  align-items: center;
+  /* justify-content: center; */
+  
+}
+.iso>.image1{
+  width: 60px;
+}
+.iso>h2{
+  text-shadow: 2px 2px 4px #9f9393;
+  color: rgb(77, 70, 70);
+  font-style:italic;
+  margin-top: 0px;
+}
+.text>.btn{
+  /* border: 2px solid blue; */
+  margin-left: 70px;
+  /* width: ; */
+}
+.btn>.btn-1{
+  border-radius:20px ;
+  font-size: 20px;
+  width: 68%;
+  padding-block: 3px;
+  background: hsla(358, 85%, 68%, 1);  
+}
+.btn>.btn-1>a{
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/* CSS */
+
+/* section2 left part end */
+
+.content>.image2{
+  /* border: 2px solid rgb(2, 201, 2); */
+  width: 50%;
+border-radius: 20px;
+  
+}
+
+
+/* section2 end */
+
+
+
+/* Section 4 start */
+.section4{
+  /* border: 2px solid palegreen; */
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw; 
+  row-gap: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 20px;
+  /* transform: translateX(94px); */
+  border-radius: 20px;
+}
+.section4>h2{
+  font-size: 2.3rem;
+  /* font-style: italic; */
+  color: rgb(215, 69, 16);
+}
+.section4>p{
+  font-size: 1.6rem;
+  font-weight: 900;
+  word-spacing: 10px;
+  color: rgb(238, 151, 10);
+  
+  
+}
+.section4>.feature{
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  padding: 20px
+}
+.section4>.feature>h3{
+  font-size: 1.9rem;
+  color: rgb(5, 0, 0);
+  
+}
+.section4>.feature>p{   
+  font-size: 1.5rem;
+  font-style: italic;
+
+}
+.section4>.feature>ul{
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  /* border: 2px solid; */
+  justify-content: space-between;
+  align-items: center;
+}
+/* <!-- HTML !-->
+<button class="button-87" role="button">Button 87</button> */
+
+/* CSS */
+.section4>.feature>ul>li {
+margin: 10px;
+padding: 15px 30px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+border-radius: 10px;
+display: block;
+border: 0px;
+font-weight: 500;
+box-shadow: 0px 0px 14px -7px #f09819;
+background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+cursor: pointer;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.section4>.feature>ul :hover {
+background-position: right center;
+/* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.section4>.feature>ul :active {
+transform: scale(0.95);
+}
+
+
+/* CSS */
+/* <!-- HTML !-->
+<button class="button-89" role="button">Button 89</button> */
+
+/* CSS */
+
+
+
+
+
+
+
+/* section 5 end */
+
+.section5{
+  /* border: 2px solid red; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  column-gap: 160px;
+  padding: 20px;
+}
+h2{
+  /* border: 2px solid; */
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.9rem;
+  word-spacing: 7px;
+}
+.section5>.card{
+  /* border: 2px solid; */
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 11px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.section5>.card>img{
+  /* border: 2px solid; */
+  width: 99%;
+}
+.section5>.card>h4{
+  font-size: 1.4rem;
+}
+.section5>.card>p{
+  line-height: 1.6;
+
+}
+.section5>.card>button{
+  width: 59%;
+  padding-inline: 14px;
+  padding-block: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* position: relative; */
+  /* left: 100px; */
+  color: whitesmoke;
+  background: hsla(358, 85%, 68%, 1);
+
+  background: linear-gradient(90deg, hsla(358, 85%, 68%, 1) 50%, hsla(18, 88%, 66%, 1) 60%, hsla(41, 98%, 49%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(358, 85%, 68%, 1) 50%, hsla(18, 88%, 66%, 1) 60%, hsla(41, 98%, 49%, 1) 100%);
+}
+
+/* section 5 end */
+
+
+
+
+
+
+
+/* footer start */

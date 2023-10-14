@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.form{
+    display:flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  /* border: 2px solid; */
+    min-height: 80vh;
+    width: 60vw;
+    transform: translate(298px, -13px);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 10px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+   
+}
+.form>.mainForm{
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    /* border: 2px solid; */
+    width: 30vw;
+    font-size: 1.2rem;
+   
+}
+.form>.mainForm>h1{
+    transform: translateX(170px);
+    color: rgb(215, 69, 16);
+    font-size:xx-large;
+}
+.mainForm>button{
+    padding-block: 13px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: hsla(358, 85%, 68%, 1);
+    background: linear-gradient(90deg, hsla(358, 85%, 68%, 1) 50%, hsla(18, 88%, 66%, 1) 60%, hsla(41, 98%, 49%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(358, 85%, 68%, 1) 50%, hsla(18, 88%, 66%, 1) 60%, hsla(41, 98%, 49%, 1) 100%);
+    transform: translateX(170px);
+    cursor: pointer;
+    margin-left: 100px;
+    box-shadow: rgb(0 0 0 / 40%) 1.95px 1.95px 5px;
+}
+
+.username>label{
+ margin-right:62px;  
+} 
+
+.form>.mainForm>.username>input{
+  border: none;
+  border-bottom: 1px solid #dadada;
+  cursor: text;
+}
+.form>.mainForm>.username>input:focus{
+    outline:none;
+}
+
+ .form>.mainForm>.flat-no>label{
+    margin-right: 32px;  
+} 
+
+.form>.mainForm>.flat-no>input{
+  border: none;
+  border-bottom: 1px solid #dadada;
+  cursor: text;
+}
+
+.form>.mainForm>.flat-no>input:focus{
+    outline:none;
+}
+
+.form>.mainForm>.phone-no>label{
+    margin-right:15px ;
+}
+
+.form>.mainForm>.phone-no>input{
+    border: none;
+    border-bottom: 1px solid #dadada;
+    cursor: text;
+}
+
+.form>.mainForm>.phone-no>input:focus{
+    outline:none;
+}
+
+.form>.mainForm>.email->label{
+    margin-right: 87px; 
+    margin-left: 0px;
+}
+
+.form>.mainForm>.email->input{
+    border: none;
+    border-bottom: 1px solid #dadada;
+    cursor: text;
+}
+
+.form>.mainForm>.email->input:focus{
+    outline:none;
+}
+
+.complaint{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    margin-top: 100px;
+    row-gap: 17px;
+    font-size: 1.3rem;
+}
+.complaint>h3{
+    font-size: 26px;
+}
+
+.complaint>input{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+}
